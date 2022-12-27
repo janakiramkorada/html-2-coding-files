@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        Body{
+            background-color:orangered;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .lgbtn{
+            background-color: green;
+            width: 100%;
+            color: orange;
+            padding: 15px;
+            margin: 10px 0px;
+            border: none;
+            cursor: pointer;
+        }
+        form{
+            margin-top: 100px;
+            border:30px solid whitesmoke;
+            background-color: lightblue;
+        }
+        .container{
+            border-color: lightblue;
+        }
+        .cclbtn{
+            opacity: 0.7;
+            cursor: pointer;
+            background-color: green;
+            margin: auto;
+        }
+        input[type=text],input[type=password]{
+            border: 5px solid green;
+        }
+    </style>
+</head>
+<body >
+    <p style="text-align: center ; font-size: 30px;">Student Login Form</p>
+    <form action="POST">
+        <div class="container">
+        <p>Username
+            <input type="text" placeholder="Username">
+        </p>
+        <p>Password
+            <input type="password" placeholder="Password">
+        </p>
+         <button class="lgbtn">Login</button>
+        <p>
+            <input type="checkbox" >Remember me
+            <button class="cclbtn">Cancel</button>
+            Forgot <a href="/sf">password?</a>
+        </p>
+        </div>
+    </form>
+    
+</body>
+</html>
